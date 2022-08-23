@@ -32,4 +32,23 @@ Learn Test Driven Development with Python
      #after installation
      python -m spacy download en_core_web_sm
 ## ㊗️ creation of directories
-     mkdir static templates test
+     mkdir static 
+     mkdir templates
+     mksdir test
+## ㊗️edit setup.py
+❗allow us to install current directory as a package
+ 
+     vim setup.py
+     
+     #inside
+     from distutils.core import setup
+     from setuptools import find_packages
+     
+     setup(
+               name= 'flaskner',
+               version="0.0.1",
+               description= "a simple NER API"
+     )
+     
+     #save
+     pip install -e . 
