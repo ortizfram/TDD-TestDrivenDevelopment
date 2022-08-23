@@ -18,3 +18,7 @@ Learn Test Driven Development with Python
 ⚪ write just enough test to fail 
 
 ⚪ write just enough code to pass 
+## ㊗️ create virtualenv
+    virtualenv env -p python3 
+### 🟢 activate
+    source env/bin/activate
