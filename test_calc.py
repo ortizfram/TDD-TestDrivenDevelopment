@@ -28,6 +28,10 @@ class testCalc(unittest.TestCase):
             self.assertEqual(calc.divide(-1, 1), -1)
             self.assertEqual(calc.divide(-1, -1), 1)
 
+            """"error if divide by 0"""
+            with self.assertRaises(ValueError):
+                calc.divide(10, 0)
+
 """command runs in editor
 this conditional would run the test, even if we type:
  >  python test_calc.py 
