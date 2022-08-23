@@ -24,7 +24,7 @@ Learn Test Driven Development with Python
 
 ❗setUp = `runs code before every single test`
 
-❗tearDown = `runs code after every single test`
+❗tearDown = `runs code after every single test` & self. = instant attribute
 
      @classmethod
     def setUpClass(cls):
@@ -38,6 +38,7 @@ Learn Test Driven Development with Python
         print('setUp')
         self.emp_1 = Employee('Corey', 'Schafer', 50000)
         self.emp_2 = Employee('Sue', 'Smith', 60000)
+        #self. = instant attribute
 
     def tearDown(self):
         print('tearDown\n')
