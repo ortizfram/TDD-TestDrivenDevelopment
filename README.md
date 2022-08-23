@@ -1,6 +1,8 @@
 # TDD-TestDrivenDevelopment
 Learn Test Driven Development with Python
 
+👽  Python,Flask, spaCy, pytest, and Selenium.
+
 `❗ENSURES YOU WRITE TESTABLE CODE` & forces you to consider design
 
 ## ㊗️ INSTALLATION
@@ -24,3 +26,10 @@ Learn Test Driven Development with Python
      py -3 -m venv venv
 ### 🟢 activate
      venv\Scripts\activate
+## ㊗️ Install dependencies
+     pip install spacy selenium pytest flask
+     
+     #after installation
+     python -m spacy download en_core_web_sm
+## ㊗️ creation of directories
+     mkdir static templates test
