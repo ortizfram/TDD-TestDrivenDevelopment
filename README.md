@@ -1,9 +1,8 @@
 # TDD-UNIT TESTING
 Learn Test Driven Development with Python
+**LINKS:**
 
-👽  Python,Flask, spaCy, pytest, and Selenium.
-
-`❗ENSURES YOU WRITE TESTABLE CODE` & forces you to consider design
+[Unittest assert methods](https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug)
 
 ## ㊗️ INSTALLATION
 - donwload virtualenv [create virtualenv windows 2022](https://gist.github.com/ortizfram/f08ca70b8bf24ddd8eb13fd5b0649476)
