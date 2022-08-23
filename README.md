@@ -6,13 +6,7 @@ Learn Test Driven Development with Python
 `❗ENSURES YOU WRITE TESTABLE CODE` & forces you to consider design
 
 ## ㊗️ INSTALLATION
-- donwload virtualenv
-
-- download [chromeDriver](https://chromedriver.chromium.org/) from chrome or mozilla [geckoDriver](https://github.com/mozilla/geckodriver) from github
-
-- download [spaCY](https://spacy.io/) **processing library**
-
-- download [Flask](https://flask.palletsprojects.com/en/2.2.x/installation/)
+- donwload virtualenv [create virtualenv windows 2022](https://gist.github.com/ortizfram/f08ca70b8bf24ddd8eb13fd5b0649476)
 
 ## ㊗️RULES of TDD
 ⚪ not allowed to write a piece of code before a failing test 
