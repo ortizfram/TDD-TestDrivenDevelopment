@@ -19,3 +19,25 @@ Learn Test Driven Development with Python
      mkdir templates
      mksdir test
 
+## ㊗️ keep code DRY:
+❗to not repeat your code-pieces along the code
+
+❗setUp = `runs code before every single test`
+
+❗tearDown = `runs code after every single test`
+
+     @classmethod
+    def setUpClass(cls):
+        print('setupClass')
+
+    @classmethod
+    def tearDownClass(cls):
+        print('teardownClass')
+
+    def setUp(self):
+        print('setUp')
+        self.emp_1 = Employee('Corey', 'Schafer', 50000)
+        self.emp_2 = Employee('Sue', 'Smith', 60000)
+
+    def tearDown(self):
+        print('tearDown\n')
