@@ -12,3 +12,11 @@ class testCalc(unittest.TestCase):
          """to run it in terminal you should go to the directory & type
          > python -m unittest test_calc.py
          if it throws 'OK' it's all good"""
+
+
+"""command runs in editor
+this conditional would run the test, even if we type:
+ >  python test_calc.py 
+ it's same as this command ↑ """
+if __name__ == '__main__':
+    unittest.main()
