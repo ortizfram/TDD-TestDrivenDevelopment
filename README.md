@@ -19,8 +19,8 @@ Learn Test Driven Development with Python
 
 ⚪ write just enough code to pass 
 ## ㊗️ create virtualenv
-    > mkdir myproject
-    > cd myproject
-    > py -3 -m venv venv
+     mkdir myproject
+     cd myproject
+     py -3 -m venv venv
 ### 🟢 activate
-    > venv\Scripts\activate
+     venv\Scripts\activate
