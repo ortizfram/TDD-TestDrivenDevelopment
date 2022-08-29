@@ -1,0 +1,15 @@
+{
+    "students":[
+        {
+         "id": 1,
+         "name": "franco",
+         "result": "pass"
+        },
+        
+        {
+         "id": 2,
+         "name": "exe",
+         "result": "fail"
+        }
+    ]
+}
