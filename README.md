@@ -6,4 +6,4 @@ Learn Test Driven Development with Python
 
 . `nose` = NOT standard p.library
 
-. `pytest` = NOT standard p.library
+. `pytest` = NOT standard p.library #pip install pytest
