@@ -69,6 +69,7 @@ def db():
     print('----------teardown----------------')
     db.close()
 
+
 def test_scott_data(db):
     scott_data = db.get_data('Scott')
     assert scott_data['id'] == 1
